@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nur al-Anbiya - The Light of the Prophets</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts: Cormorant Garamond for headings, Lato for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Your Custom CSS (Correct Path) -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ======== UPDATED Header & Navigation Bar ======== -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <!-- NEW NAME AND LOGO -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://placehold.co/40x40/D4AF37/192a56?text=NA" alt="Nur al-Anbiya Logo" class="logo-img">
+                    Nur al-Anbiya
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="prophets.html">The Prophets</a>
+                        </li>
+                        <!-- Dropdown for Pillars of Islam -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="pillarsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pillars of Islam
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="pillarsDropdown">
+                                <li><a class="dropdown-item" href="pillars.html">Overview</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="pillar_shahada.html">Shahada</a></li>
+                                <li><a class="dropdown-item" href="pillar_salah.html">Salah</a></li>
+                                <li><a class="dropdown-item" href="pillar_zakat.html">Zakat</a></li>
+                                <li><a class="dropdown-item" href="pillar_sawm.html">Sawm</a></li>
+                                <li><a class="dropdown-item" href="pillar_hajj.html">Hajj</a></li>
+                            </ul>
+                        </li>
+                        <!-- Dropdown for Essential Knowledge -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="knowledgeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Essential Knowledge
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="knowledgeDropdown">
+                                <li><a class="dropdown-item" href="quran.html">The Holy Quran</a></li>
+                                <li><a class="dropdown-item" href="99names.html">99 Names of Allah</a></li>
+                                <li><a class="dropdown-item" href="duas.html">Daily Duas</a></li>
+                                <li><a class="dropdown-item" href="angels.html">Belief in Angels</a></li>
+                                <li><a class="dropdown-item" href="jannah.html">Concept of Jannah</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- The rest of your main content remains the same -->
+        <section class="hero-section text-white text-center">
+            <div class="hero-content">
+                <h1 class="display-4 animated-title">The Light of the Prophets</h1>
+                <p class="lead animated-lead">Exploring the lives, struggles, and divine wisdom of the Messengers of God.</p>
+                <a href="prophets.html" class="btn btn-lg btn-custom">Begin the Journey</a>
+            </div>
+        </section>
+        <section class="intro-section py-5">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="section-title">Welcome to Nur al-Anbiya</h2>
+                        <p class="lead">This sanctuary of knowledge is dedicated to sharing the profound stories of the prophets. Each narrative is a source of inspiration, a guide for humanity, and a testament to unwavering faith in the Almighty.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="featured-prophets-section py-5">
+            <div class="container">
+                <h2 class="text-center section-title mb-5">Featured Messengers</h2>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100 prophet-card">
+                             <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Geometric Islamic patterns">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Prophet Muhammad (ﷺ)</h5>
+                                <p class="card-text">The final messenger, who brought the completed guidance of Islam to all of humanity.</p>
+                                <a href="Hazrat_Muhammad_SAW.html" class="btn btn-outline-custom mt-auto">Read His Story</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100 prophet-card">
+                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjMQBHMXJP50IWjYQL1g0239Ih9WrTd1sCzQ&s" class="card-img-top" alt="The Kaaba in Mecca">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Prophet Ibrahim (عليه السلام)</h5>
+                                <p class="card-text">A friend of God (Khalil-ullah) and a patriarch of monotheism, renowned for his ultimate submission.</p>
+                                <a href="prophet_ibrahim.html" class="btn btn-outline-custom mt-auto">Read His Story</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4 mb-4">
+                        <div class="card h-100 prophet-card">
+                            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Desert landscape at sunset">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Prophet Musa (عليه السلام)</h5>
+                                <p class="card-text">The prophet who received the Torah and led the Children of Israel from bondage in Egypt.</p>
+                                <a href="prophet_musa.html" class="btn btn-outline-custom mt-auto">Read His Story</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ======== Footer ======== -->
+    <<!-- ======== Footer ======== -->
+<footer class="footer-section py-4">
+    <div class="container text-center">
+        <p>&copy; 2025 Nur al-Anbiya. All Rights Reserved.</p>
+        <p class="mt-2" style="font-size: 0.9rem; color: rgba(255,255,255,0.6);">
+            Submitted by: Sayyed Munwer Ali Shah | Roll No: 2k23 / IT / 144
+        </p>
+        <a href="https://wa.me/923012200453" target="_blank" class="whatsapp-link d-inline-flex align-items-center mt-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp me-2" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+            </svg>
+            03012200453
+        </a>
+    </div>
+</footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Your Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>

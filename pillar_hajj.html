@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hajj (The Pilgrimage) - Nur al-Anbiya</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ======== Header & Navigation Bar ======== -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://placehold.co/40x40/008080/FFFFFF?text=NA" alt="Nur al-Anbiya Logo" class="logo-img">
+                    Nur al-Anbiya
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="prophets.html">The Prophets</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="pillarsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pillars of Islam
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="pillarsDropdown">
+                                <li><a class="dropdown-item" href="pillars.html">Overview</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="pillar_shahada.html">Shahada</a></li>
+                                <li><a class="dropdown-item" href="pillar_salah.html">Salah</a></li>
+                                <li><a class="dropdown-item" href="pillar_zakat.html">Zakat</a></li>
+                                <li><a class="dropdown-item" href="pillar_sawm.html">Sawm</a></li>
+                                <li><a class="dropdown-item" href="pillar_hajj.html">Hajj</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="knowledgeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Essential Knowledge
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="knowledgeDropdown">
+                                <li><a class="dropdown-item" href="quran.html">The Quran</a></li>
+                                <li><a class="dropdown-item" href="duas.html">Daily Duas</a></li>
+                                <li><a class="dropdown-item" href="99names.html">99 Names of Allah</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ======== Page Header Section ======== -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Hajj</h1>
+                <p class="lead">The Pilgrimage to Mecca</p>
+            </div>
+        </section>
+
+        <!-- ======== Main Content Section ======== -->
+        <section class="content-section py-5">
+            <div class="container">
+                <div class="row">
+                    <!-- Main Content Column (Left) -->
+                    <div class="col-lg-8">
+                        <img src="data:image/jpeg;base64,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" class="img-fluid content-image mb-4" alt="The Kaaba in Mecca surrounded by pilgrims">
+
+                        <h2 class="mb-3">A Journey of Faith and Unity</h2>
+                        <p>The Hajj, or pilgrimage to Mecca, is the fifth and final pillar of Islam. It is a journey that every physically and financially able Muslim is required to undertake at least once in their lifetime. Pilgrimage is made to the Kaaba, the 'House of God' built by Prophet Abraham and his son Ishmael, which stands as the devotional epicenter for Muslims worldwide.</p>
+                        <p>The rites of Hajj are performed today exactly as they were by Prophet Abraham and, after him, by Prophet Muhammad (peace be upon them). It serves as the ultimate penance for sins and is a profound expression of devotion and spirituality.</p>
+
+                        <h3 class="mt-5">A Display of Universal Brotherhood</h3>
+                        <p>The Hajj is a powerful manifestation of Islamic unity. More than two million Muslims from every race, color, and background converge on Mecca, dressed in simple white garments (Ihram), symbolizing the equality of all humanity before God. This shared experience erases distinctions of wealth and status, fostering a unique spirit of brotherhood and harmony.</p>
+                        <p>The pilgrimage begins on the 8th day of Dhul-Hijjah, the last month of the Islamic year. Pilgrims perform a series of rituals, including circling the Kaaba (Tawaf), walking between the hills of Safa and Marwah (Sa'i), and standing on the plains of Arafah, which is the pinnacle of the Hajj.</p>
+                    </div>
+
+                    <!-- Sidebar Column (Right) -->
+                    <div class="col-lg-4">
+                        <div class="sidebar-widget p-4">
+                            <h4 class="mb-3">Quick Facts</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <strong>Pillar:</strong> The Fifth Pillar of Islam.
+                                </li>
+                                <li class="mb-3">
+                                    <strong>When:</strong> Annually, beginning on the 8th day of the Islamic month of Dhul-Hijjah.
+                                </li>
+                                <li class="mb-3">
+                                    <strong>Obligation:</strong> Required once in a lifetime for those who are physically and financially able.
+                                </li>
+                                <li class="mb-3">
+                                    <strong>Ihram:</strong> A state of purity entered by pilgrims, symbolized by wearing simple white garments.
+                                </li>
+                                <li class="mb-3">
+                                    <strong>Purpose:</strong> To seek forgiveness for sins, express devotion to God, and experience the unity and equality of the global Muslim community.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ======== Footer ======== -->
+    <footer class="footer-section py-4">
+    <div class="container text-center">
+        <p>&copy; 2025 Nur al-Anbiya. All Rights Reserved.</p>
+        <p class="mt-2" style="font-size: 0.9rem; color: rgba(255,255,255,0.6);">
+            Submitted by: Sayyed Munwer Ali Shah | Roll No: 2k23 / IT / 144
+        </p>
+        <a href="https://wa.me/923012200453" target="_blank" class="whatsapp-link d-inline-flex align-items-center mt-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp me-2" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+            </svg>
+            03012200453
+        </a>
+    </div>
+</footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Your Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
